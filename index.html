@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles Berg FITNESS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Share+Tech+Mono&family=Squada+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h1><span class="highlight-header-color">MILES BERG</span> <br><span class="highlight-fitness-color">FITNESS</span></h1>
+        <img src="img/gym.png" alt="">
+    </header>   
+    <div class="nav-bar">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#fitness-tracker">EXERCISE</a></li>
+                <li><a href="#diet-tracker">DIET</a></li>
+                <li><a href="#weight-tracker">WEIGHT TRACKER</a></li>
+                <li><a href="">PROFILE</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="intro">
+        <div class="hero-img">
+            <img src="img/break-workout_602724.jpg" alt="">
+            <div class="gradient-hero"></div>
+        </div>
+        <div class="hero-text">
+            <h1>Track Your <span class="highlight-word-color">FITNESS</span> <br> and <span class="highlight-word-color">DIETING</span> with us</h1>
+            <h3>TAKE THE NEXT STEPS OF LIVING A HEALTHIER LIFESTYLE</h3>
+        </div>
+        <div class="hero-btn">
+            <h1><a href="">SIGN UP NOW</a></h1>
+        </div>
+    </div> 
+    <div class="fitness-tab">
+        <h1><a href="#fitness-tracker">Fitness Tracking</a></h1>
+    </div>
+    <div class="diet-tab">
+        <h1><a href="#diet-tracker">Diet Tracking</a></h1>
+    </div>
+    <div class="weight-tab">
+        <h1><a href="#weight-tracker">Weight Tracking</a></h1>
+    </div>
+    <div class="container">
+        <div class="fitness-background">
+            <img src="img/ropes.jpg" alt="">
+            <div class="fitness-gradient"></div>
+        </div>
+        <section id="fitness-tracker">
+            <h2>Fitness Tracking</h2>
+            <form id="fitness-form">
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" placeholder="e.g., Running" required>
+                
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" required>
+                
+                <button id="add-fitness-entry">Add Entry</button>
+            </form>
+            
+            <div id="fitness-entries">
+                <!-- Fitness entries will be displayed here -->
+            </div>
+        </section>
+        <div class="diet-background">
+            <img src="img/Calories_1200x628.jpg" alt="">
+            <div class="diet-gradient"></div>
+        </div>
+        <section id="diet-tracker">
+            <h2>Diet Tracking</h2>
+            <form id="diet-form">
+                <label for="food">Food:</label>
+                <input type="text" id="food" placeholder="e.g., Chicken Salad" required>
+                
+                <label for="calories">Calories:</label>
+                <input type="number" id="calories" required>
+                
+                <button id="add-diet-entry">Add Entry</button>
+            </form>
+            
+            <div id="diet-entries">
+                <!-- Diet entries will be displayed here -->
+            </div>
+        </section>
+        <div class="weight-background">
+            <img src="img/weighing.jpg" alt="">
+            <div class="weight-gradient"></div>
+        </div>
+        <section id="weight-tracker">
+            <h2>Weight Tracking</h2>
+            <form id="weight-form">
+                <label for="activity">Date:</label>
+                <input type="text" id="activity" placeholder="e.g., October 22nd, 2023" required>
+                
+                <label for="duration">Weight (Lbs):</label>
+                <input type="number" id="duration" required>
+                
+                <button id="add-weight-entry">Add Entry</button>
+            </form>
+            
+            <div id="fitness-entries">
+                <!-- Fitness entries will be displayed here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
