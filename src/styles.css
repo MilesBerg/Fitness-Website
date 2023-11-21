@@ -1,0 +1,441 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+  font-style: italic;
+  text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+  padding: 0px;
+  font-size: 20px;
+  padding-left: 4%;
+  top: 0%;
+}
+
+header h1{
+  top: -1%;
+  position: absolute;
+}
+
+header img{
+  position: absolute;
+  width: 3%;
+  top: 1%;
+  left: 1%;
+  transform: rotate(-45deg);
+}
+
+.highlight-header-color {
+  color: black;
+}
+
+.highlight-fitness-color {
+  letter-spacing: 8px;
+}
+
+#intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.hero-img {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-img img{
+  position: absolute;
+  left: 25.35%;
+  top: 0%;
+  height: 100%;
+}
+
+.gradient-hero {
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0));
+  width: 75%;
+  height: 100%;
+  left: 24%;
+}
+
+.hero-btn {
+  position: absolute;
+  width: 25%;
+  height: 6%;
+  background-color: black;
+  top: 60%;
+  left: 8%;
+}
+
+.hero-btn:hover {
+  background-color: rgb(255, 0, 0);
+  transition: .8s;
+}
+
+.hero-btn h1 a{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 50%;
+  top: 50%;
+  font-size: 50px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+.nav-bar{
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  padding-left: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  top: 0%;
+  left: 0%;
+}
+
+nav ul {
+  position: absolute;
+  z-index: 5;
+  top: 4px;
+  right: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 4rem;
+  font-weight: bolder;
+  top: 50%;
+  opacity: .6;
+  transform: translatey(-50%);
+}
+
+nav a:hover {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.hero-text{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.hero-text h1{
+  font-size: 90px;
+}
+
+.hero-text h3{
+  font-size: 30px;
+  opacity: .8;
+}
+
+.highlight-word-color{
+  color: red;
+}
+
+.container {
+  width: 30%;
+  padding-top: 55%;
+  left: 10%;
+}
+
+.fitness-tab {
+  position: absolute;
+  background-color: black;
+  top: 94%;
+  left: 0%;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  width: 20%;
+  height: 10%;
+
+}
+
+.fitness-tab h1 a{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 5%;
+  font-size: 40px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.fitness-tab h1 a:hover {
+  color: red;
+  transition: .6s;
+}
+
+.diet-tab {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  top: 157%;
+  left: 80%;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  width: 20%;
+  height: 10%;
+
+}
+
+.diet-tab h1 a{
+  position: absolute;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  left: 55%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.diet-tab h1 a:hover {
+  color: red;
+  transition: .6s;
+}
+
+.weight-tab {
+  position: absolute;
+  background-color: black;
+  top: 215%;
+  left: 0%;
+  z-index: 2;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  width: 20%;
+  height: 10%;
+
+}
+
+.weight-tab h1 a{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  left: 5%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.weight-tab h1 a:hover {
+  color: red;
+  transition: .6s;
+}
+
+.fitness-background{
+  position: absolute;
+  left: 0%;
+  background-color: black;
+  width: 100%;
+  height: 63.2%;
+  top: 100%;
+}
+
+.fitness-gradient{
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  width: 47%;
+  height: 100%;
+  left: 52.8%;
+}
+
+.fitness-background img{
+  position: absolute;
+  left: 52.8%;
+}
+
+#fitness-tracker {
+  position: absolute;
+  z-index: 2;
+  width: 30%;
+  left: 5%;
+  top: 120%;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.diet-background {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 163%;
+  left: 0%;
+  height: 55%;
+  width: 100%;
+}
+
+.diet-background img{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 55%;
+}
+
+.diet-gradient {
+  position:absolute;
+  background-image: linear-gradient(to left, rgb(255, 255, 255), transparent);
+  width: 55%;
+  height: 106%;
+}
+
+#diet-tracker {
+  position: absolute;
+  top: 182%;
+  left: 60%;
+  width: 30%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.weight-background {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 60.8%;
+  top: 220%;
+  left: 0%;
+}
+
+.weight-background img{
+  position: absolute;
+  width: 45%;
+  right: 0%;
+
+}
+
+.weight-gradient{
+  position: absolute;
+  height: 100%;
+  width: 45%;
+  left: 55%;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent);
+}
+
+#weight-tracker {
+  position: absolute;
+  top: 240%;
+  width: 30%;
+  left: 5%;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#fitness-entries, #diet-entries {
+  border: 1px solid #ddd;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#find-gym {
+  position: absolute;
+  top: 210%;
+  left: 0%;
+  width: 100vh;
+  height: 60vw;
+}
+
+.gym-text h1 {
+  position: absolute;
+  font-size: 10vh;
+  top: 290%;
+  left: 60%;
+  z-index: 4;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+iframe {
+  position: absolute;
+  height: 45vh;
+  width: 60vh;
+  z-index: 4;
+  top: 285%;
+  left: 10vh;
+
+}
+
+.gym-tab {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  top: 275%;
+  left: 80%;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  width: 20%;
+  height: 10%;
+
+}
+
+.gym-tab h1 a{
+  position: absolute;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  left: 55%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Squada One', sans-serif;
+}
+
+.gym-tab h1 a:hover {
+  color: red;
+  transition: .6s;
+}
