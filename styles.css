@@ -320,7 +320,7 @@ nav a:hover {
     position: absolute;
     background-color: black;
     width: 100%;
-    height: 60.3%;
+    height: 60.8%;
     top: 220%;
     left: 0%;
 }
@@ -381,4 +381,61 @@ button:hover {
     padding: 10px;
     max-height: 300px;
     overflow-y: auto;
+}
+
+#find-gym {
+    position: absolute;
+    top: 210%;
+    left: 0%;
+    width: 100vh;
+    height: 60vw;
+}
+
+.gym-text h1 {
+    position: absolute;
+    font-size: 10vh;
+    top: 290%;
+    left: 60%;
+    z-index: 4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Squada One', sans-serif;
+}
+
+iframe {
+    position: absolute;
+    height: 45vh;
+    width: 60vh;
+    z-index: 4;
+    top: 285%;
+    left: 10vh;
+
+}
+
+.gym-tab {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    top: 275%;
+    left: 80%;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 20%;
+    height: 10%;
+
+}
+
+.gym-tab h1 a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    left: 55%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Squada One', sans-serif;
+}
+
+.gym-tab h1 a:hover {
+    color: red;
+    transition: .6s;
 }
